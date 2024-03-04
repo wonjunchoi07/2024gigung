@@ -1,0 +1,37 @@
+/* 전체 body 스타일 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* 헤더 스타일 */
+  .header {
+    background-color: #333; /* 배경색 지정 */
+    color: #fff; /* 텍스트 색상 */
+    padding: 20px 0; /* 위아래 20px, 좌우 0 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+  }
+  
+  /* 로고 이미지 스타일 */
+  .logo img {
+    width: 100px; /* 로고 이미지 너비 */
+    height: auto; /* 로고 이미지 높이 자동 조정 */
+  }
+  
+  /* 네비게이션 메뉴 스타일 */
+  .navbar {
+    margin-top: 20px; /* 네비게이션 메뉴와 로고 사이 여백 */
+  }
+  
+  .navbar a {
+    color: #fff; /* 네비게이션 메뉴 텍스트 색상 */
+    text-decoration: none; /* 밑줄 제거 */
+    margin: 0 10px; /* 네비게이션 메뉴 간격 */
+    padding: 5px 10px; /* 네비게이션 메뉴 안 여백 */
+    border-radius: 5px; /* 네비게이션 메뉴 모서리 둥글게 */
+  }
+  
+  .navbar a:hover {
+    background-color: #555; /* 마우스 호버시 배경색 변경 */
+  }
