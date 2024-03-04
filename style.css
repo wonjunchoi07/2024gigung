@@ -9,8 +9,10 @@ body {
   .header {
     background-color: #333; /* 배경색 지정 */
     color: #fff; /* 텍스트 색상 */
-    padding: 20px 0; /* 위아래 20px, 좌우 0 */
-    text-align: center; /* 텍스트 가운데 정렬 */
+    padding: 20px; /* 상하좌우 20px */
+    display: flex;
+    justify-content: space-between; /* 로고와 메뉴 사이 여백 */
+    align-items: center; /* 수직 중앙 정렬 */
   }
   
   /* 로고 이미지 스타일 */
@@ -21,7 +23,7 @@ body {
   
   /* 네비게이션 메뉴 스타일 */
   .navbar {
-    margin-top: 20px; /* 네비게이션 메뉴와 로고 사이 여백 */
+    text-align: center; /* 텍스트 가운데 정렬 */
   }
   
   .navbar a {
@@ -34,4 +36,19 @@ body {
   
   .navbar a:hover {
     background-color: #555; /* 마우스 호버시 배경색 변경 */
+  }
+  
+  /* 로그인 및 회원가입 링크 스타일 */
+  .login-links {
+    margin-left: 20px; /* 로그인 링크 왼쪽 여백 */
+  }
+  
+  .login-links a {
+    color: #fff; /* 링크 텍스트 색상 */
+    text-decoration: none; /* 밑줄 제거 */
+    margin-right: 10px; /* 링크 간격 */
+  }
+  
+  .login-links a:hover {
+    text-decoration: underline; /* 호버 시 밑줄 추가 */
   }
