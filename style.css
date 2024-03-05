@@ -7,9 +7,9 @@ body {
   
   /* 헤더 스타일 */
   .header {
-    background-color: #333; /* 배경색 지정 */
-    color: #fff; /* 텍스트 색상 */
-    padding: 20px; /* 상하좌우 20px */
+    background-color: white; /* 배경색 지정 */
+    color: black; /* 텍스트 색상 */
+    padding: 15px; /* 상하좌우 20px */
     display: flex;
     justify-content: space-between; /* 로고와 메뉴 사이 여백 */
     align-items: center; /* 수직 중앙 정렬 */
@@ -17,8 +17,8 @@ body {
   
   /* 로고 이미지 스타일 */
   .logo img {
-    width: 100px; /* 로고 이미지 너비 */
-    height: auto; /* 로고 이미지 높이 자동 조정 */
+    width: 200px; /* 로고 이미지 너비 */
+    height: 50px; /* 로고 이미지 높이 자동 조정 */
   }
   
   /* 네비게이션 메뉴 스타일 */
@@ -27,7 +27,7 @@ body {
   }
   
   .navbar a {
-    color: #fff; /* 네비게이션 메뉴 텍스트 색상 */
+    color: black; /* 네비게이션 메뉴 텍스트 색상 */
     text-decoration: none; /* 밑줄 제거 */
     margin: 0 10px; /* 네비게이션 메뉴 간격 */
     padding: 5px 10px; /* 네비게이션 메뉴 안 여백 */
@@ -44,11 +44,13 @@ body {
   }
   
   .login-links a {
-    color: #fff; /* 링크 텍스트 색상 */
+    color: black; /* 링크 텍스트 색상 */
     text-decoration: none; /* 밑줄 제거 */
     margin-right: 10px; /* 링크 간격 */
+    padding: 10px;
   }
   
   .login-links a:hover {
-    text-decoration: underline; /* 호버 시 밑줄 추가 */
+    background-color: #555; /* 호버 시 배경색 변경  */
+    border-radius: 5px;
   }
