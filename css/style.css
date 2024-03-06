@@ -126,6 +126,25 @@ li {
         transform: translateX(-300%);
     }
 }
+/*information*/
+.information{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.infor{
+  width: 650px;
+  height: 400px;
+}
+.information_img{
+  padding-left: 40%;
+}
+.detail{
+  padding-left:33%;
+  padding-bottom: 20px;
+}
+.detail2{
+  padding-left:50%;
+}
 /*footer*/
 .Copyright{
   list-style: none;
@@ -146,4 +165,32 @@ li {
 }
 footer{
   background-color: #555;
+}
+/* 메인페이지 -> game schedule 영역 */
+#game_schedule_table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#game_schedule_table tr, #game_schedule_table td, #game_schedule_table th {
+  border: 1px solid lightgray;
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
+}
+
+.today {
+  background-color: lightyellow;
+}
+
+.have_game a {
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.have_game a:active {
+  color: blue;
 }
