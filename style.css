@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 /* 전체 body 스타일 */
 body {
     margin: 0;
@@ -120,4 +125,25 @@ li {
     95% {
         transform: translateX(-300%);
     }
+}
+/*footer*/
+.Copyright{
+  list-style: none;
+  color: aliceblue;
+}
+.content{
+  text-align: center;
+}
+.box{
+  text-align: center;
+}
+#footer_img
+{
+  padding-top: 10px;
+  width: 250px;
+  height: 70px;
+  filter: grayscale();
+}
+footer{
+  background-color: #555;
 }
