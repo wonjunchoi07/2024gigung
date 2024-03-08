@@ -274,14 +274,85 @@ footer{
   visibility:  visible;
   opacity: 1;
 }
-.ranke{
-  text-decoration: none;
-  font-size: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-#dawnleague{
+#ranking {
+  margin-top: 50px;
+  width: 100%;
   text-align: center;
+}
+
+#ranking #ranking_menu {
+  display: flex;
+  justify-content: center;
+}
+
+#ranking #ranking_menu div {
+  padding: 0 20px;
+  font-size: 24px;
+}
+
+#ranking>div ul {
+  visibility: hidden;
+}
+
+#ranking div p:hover+ul,
+#ranking div ul:hover {
+  visibility: visible;
+}
+
+#league_details {
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#league_details div {
+  display: none;
+}
+
+#league_details div:target {
+  display: block;
+}
+
+#ranking div ul li a,
+#ranking div ul li a:active,
+#league_top a, #league_top a:active
+{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+#league_top {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#league_top div {
+  border: 1px solid gray;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#league_top div p {
+  font-size: 24px;
+
+}
+
+#league_top div ul {
+  font-size: 18px;
+  display: none;
+}
+
+#league_top div:target ul {
+  display: block;
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+      opacity: 0;
+  } to {
+      opacity: 1;
+  }
 }
