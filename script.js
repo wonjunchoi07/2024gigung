@@ -59,5 +59,6 @@ async function initBaseballParkChart(){
     const days = ["월", "화", "수", "목", "금", "토", "일"];
     days.forEach((day) => {
         $("#daySelect").append(new Option(day, day));
-    });
+        
+    }); 
 }
